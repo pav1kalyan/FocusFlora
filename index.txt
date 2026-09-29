@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FocusFlora - HD Pixel Pomodoro Studio</title>
 
-    <!-- Favicon Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="file:///D:/Websites%20Testing/Test_Cases/Intractive_Pomodoro_FocusFlora/Plant_Pomodoro_FocusFlora/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="file:///D:/Websites%20Testing/Test_Cases/Intractive_Pomodoro_FocusFlora/Plant_Pomodoro_FocusFlora/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="file:///D:/Websites%20Testing/Test_Cases/Intractive_Pomodoro_FocusFlora/Plant_Pomodoro_FocusFlora/favicon_io/favicon-16x16.png">
-    <link rel="shortcut icon" href="file:///D:/Websites%20Testing/Test_Cases/Intractive_Pomodoro_FocusFlora/Plant_Pomodoro_FocusFlora/favicon_io/favicon.ico">
+    <!-- Favicon Icons (Relative Paths for GitHub) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="shortcut icon" href="./favicon_io/favicon.ico">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@600;700&display=swap');
