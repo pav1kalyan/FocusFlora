@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FocusFlora - HD Pixel Pomodoro Studio</title>
+
+    <!-- Favicon Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="file:///D:/Websites%20Testing/Test_Cases/Intractive_Pomodoro_FocusFlora/Plant_Pomodoro_FocusFlora/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="file:///D:/Websites%20Testing/Test_Cases/Intractive_Pomodoro_FocusFlora/Plant_Pomodoro_FocusFlora/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="file:///D:/Websites%20Testing/Test_Cases/Intractive_Pomodoro_FocusFlora/Plant_Pomodoro_FocusFlora/favicon_io/favicon-16x16.png">
+    <link rel="shortcut icon" href="file:///D:/Websites%20Testing/Test_Cases/Intractive_Pomodoro_FocusFlora/Plant_Pomodoro_FocusFlora/favicon_io/favicon.ico">
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@600;700&display=swap');
 
@@ -56,6 +63,19 @@
             align-items: center;
             justify-content: space-between;
             margin-bottom: 12px;
+        }
+
+        .brand-logo-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .sprout-logo-icon {
+            width: 28px;
+            height: 28px;
+            image-rendering: pixelated;
+            filter: drop-shadow(0 0 6px rgba(74, 222, 128, 0.8));
         }
 
         h2 {
@@ -338,7 +358,33 @@
 
     <div class="pixel-card">
         <div class="header-container">
-            <h2>FOCUSFLORA</h2>
+            <div class="brand-logo-group">
+                <!-- Pixel Art Sprout Logo -->
+                <svg class="sprout-logo-icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Soil / Base -->
+                    <rect x="5" y="14" width="6" height="2" fill="#78350f"/>
+                    <rect x="6" y="13" width="4" height="1" fill="#451a03"/>
+                    
+                    <!-- Stem -->
+                    <rect x="7" y="8" width="2" height="5" fill="#15803d"/>
+                    <rect x="8" y="9" width="1" height="4" fill="#22c55e"/>
+
+                    <!-- Left Leaf -->
+                    <rect x="3" y="6" width="4" height="2" fill="#4ade80"/>
+                    <rect x="2" y="7" width="2" height="2" fill="#22c55e"/>
+                    <rect x="4" y="5" width="2" height="1" fill="#86efac"/>
+
+                    <!-- Right Leaf -->
+                    <rect x="9" y="5" width="4" height="2" fill="#4ade80"/>
+                    <rect x="12" y="6" width="2" height="2" fill="#22c55e"/>
+                    <rect x="10" y="4" width="2" height="1" fill="#86efac"/>
+
+                    <!-- Highlights / Glow Pixels -->
+                    <rect x="4" y="6" width="1" height="1" fill="#ffffff"/>
+                    <rect x="10" y="5" width="1" height="1" fill="#ffffff"/>
+                </svg>
+                <h2>FOCUSFLORA</h2>
+            </div>
             <button class="shop-btn" onclick="openShopModal()">🛒 SHOP</button>
         </div>
 
